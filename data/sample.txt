@@ -1,0 +1,3 @@
+To jest przykładowy plik tekstowy używany do warsztatów z RAG.
+Zawiera informacje, które chatbot będzie mógł przeszukiwać.
+

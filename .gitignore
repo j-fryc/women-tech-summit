@@ -1,0 +1,12 @@
+.env
+venv
+.venv
+.venv_bak
+*.swp
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+*/.ipynb_checkpoints
+*/.gradio
+.idea/
+.vscode/

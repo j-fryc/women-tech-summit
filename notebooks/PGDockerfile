@@ -1,0 +1,2 @@
+FROM postgres:16.4
+RUN apt -y update && apt install -y postgresql-16-pgvector

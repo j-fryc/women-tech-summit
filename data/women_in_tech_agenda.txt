@@ -1,0 +1,26 @@
+## Zbuduj AI Chatbota w Pythonie!
+
+Chcesz zrozumieć, jak działają nowoczesne chatboty oparte na sztucznej inteligencji i sama stworzyć jednego z nich? Podczas tego warsztatu krok po kroku zbudujesz własnego AI chatbota wykorzystującego technikę RAG (Retrieval-Augmented Generation) – jedną z najciekawszych innowacji w świecie generatywnej AI.
+
+Nauczysz się:
+
+- czym jest RAG i jak łączy modele językowe z danymi zewnętrznymi,
+- jak przygotować własne dane (np. PDF-y, artykuły) do wykorzystania przez bota,
+- jak stworzyć działającego chatbota, który naprawdę "wie, o czym mówi",
+- i jak to wszystko zintegrować w prostym projekcie (np. przy użyciu Streamlit lub innego frameworka).
+
+    **Co warto wiedzieć i zabrać ze sobą?**
+    🔸 **Znajomość podstaw Pythona** – trochę kodu się pojawi!
+    🔸 **Laptop z Pythonem i IDE** – zabierz ze sobą komputer z zainstalowanym Pythonem oraz środowiskiem do kodowania, np. **VSCode** albo **PyCharm**. Będziemy działać praktycznie!
+
+    To co? Stworzymy wspólnie Twój pierwszy AI-owy chatbot w Pythonie? 
+
+Tags:
+
+- Artificial Intelligence
+- Automation
+- Data Management
+- Generative AI
+- Machine Learning
+- New Technology
+- Telecommunications
