@@ -33,6 +33,6 @@ if __name__ == "__main__":
     knowledge_base = InMemoryKnowledgeBase(openai_api_key, chunker)
     knowledge_base.process_txt_to_vectorstore("../data/paracetamol.txt")
 
-    openai_llm = OpenAILLM(openai_api_key)
+    openai_llm = OpenAILLM(openai_api_key, knowledge_base)
     app = CliApp(openai_llm)
     app.run()
