@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-from chunker import RecursiveChunker
+from chunker import TextSplitterChunker
 from knowledgebase import InMemoryKnowledgeBase
 from semantic_splitter import SemanticTextChunker
 
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     load_dotenv(f"{os.path.dirname(os.path.abspath(__file__))}/../.env")
     openai_api_key: str = os.getenv("OPENAI_API_KEY")
 
-    chunker = RecursiveChunker()
+    chunker = TextSplitterChunker()
     # semantic_chunker = SemanticTextChunker(
     #     api_key=openai_api_key,
     # )
