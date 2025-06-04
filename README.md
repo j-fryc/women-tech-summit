@@ -29,3 +29,14 @@ Repozytorium pomocniczne na warsztaty.
 1. **Zadanie 2**: Dodaj własny chunker w pliku chunker.py
     - Zaimplementuj klasę `TextSplitterChunker`
     - (opcjonalnie) zaimplementuj klasę `TextSplitterOverlapChunker`
+
+
+Kontakt do prowadzących:
+
+Maciej Jagiełło:
+- https://www.linkedin.com/in/maciej-jagiełło-233b8386/
+- maciej.jagiello@external.t-mobile.pl
+
+Jakub Fryc:
+- https://www.linkedin.com/in/jakub-fryc-04a813224/
+- jakub.fryc@t-mobile.pl
