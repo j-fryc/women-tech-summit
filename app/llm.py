@@ -19,6 +19,7 @@ class OpenAILLM:
         self._llm = OpenAI(api_key=openai_api_key)
 
     def run(self, question: str) -> str:
+        doc_with_score = self._knowledge_base.search(question)
         response = self._llm.chat.completions.create(
             model=self._model_name,
             messages=[
@@ -28,7 +29,7 @@ class OpenAILLM:
                 },
                 {
                     "role": "user",
-                    "content": question,
+                    "content": ', '.join([question, doc_with_score[0].page_content]),
                 },
             ],
             temperature=self._temperature,
